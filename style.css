@@ -26,5 +26,4 @@ table {
  tr:nth-child(even) {
     background-color: #143ddf;
     color: white;
-  }
-  /**************Responsiveness************/
+ }
