@@ -1,0 +1,30 @@
+table {
+    border: double black 13px;
+    border-radius: 6px;
+    empty-cells: hide;
+    overflow-x:auto;
+ }
+ td, th {
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+ }
+ th {
+    background-color: rgb(184, 184, 184);
+    color: blue;
+    border-top: none;
+ }
+ td:first-child, th:first-child {
+    border-left: none;
+ }
+ caption {
+    margin-top: 3px;
+    background-color: rgb(39, 50, 170);
+    caption-side: bottom;
+    color: white;
+    border-radius: 10%;
+ }
+ tr:nth-child(even) {
+    background-color: #143ddf;
+    color: white;
+  }
+  /**************Responsiveness************/
